@@ -45,10 +45,6 @@ Configuracion de variable de entorno %M2_HOME%
 
 2. Ubicarse en la carpeta local
 
-3. Clonar el repositorio en rama dev del proyecto
-
-git clone --branch dev http://ci-hiperion.sefin.gob.hn/sefin/it/segrd/api-info-segrd-token-sso.git
-
 4. Importar carpeta del proyecto en Spring Tool Suite
 
 5. Seleccionar el aplicativo y ejecutar la siguiente combinación de teclas en STS: Alt + Shift + X, B
@@ -58,12 +54,3 @@ git clone --branch dev http://ci-hiperion.sefin.gob.hn/sefin/it/segrd/api-info-s
 ***
 [Lineamientos de Base Datos]-
 Las configuraciones de conexion a base de datos deben quedar definidas en variables de ambientes dentro del pod que se crea al momento de desplegar la aplicacion dentro de la plataforma de openshift.
-
-[//]:# (Área para colocar los links y referencias a ser utilizadas)
-
-[GitLab]: <http://ci-hiperion.sefin.gob.hn/>
-[SonarQube]: <https://sonarqube-cicd-tools.apps.galel.sefin.gob.hn/>
-[OpenShift]: <https://console-openshift-console.apps.galel.sefin.gob.hn/>
-[Nexus ]: <http://nexus.apps.galel.sefin.gob.hn/>
-[Apicuro]: <https://apicurio-studio-ui-gob-apicurio.apps.galel.sefin.gob.hn>
-[3Scale]: <https://3scale-admin.apps.galel.sefin.gob.hn/>
